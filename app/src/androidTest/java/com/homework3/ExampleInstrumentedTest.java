@@ -1,4 +1,4 @@
-package com.twofromkt.homework3;
+package com.homework3;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.twofromkt.homework3", appContext.getPackageName());
+        assertEquals("com.homework3", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package com.twofromkt.homework3;
+package com.homework3;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
