@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         image = (ImageView) findViewById(R.id.picture);
         err = (TextView) findViewById(R.id.error_txt);
         File f = new File(getFilesDir(), fileName);
-        Bitmap bitmap = BitmapFactory.decodeFile(f.getAbsolutePath());
         if (f.exists()) {
+            Bitmap bitmap = BitmapFactory.decodeFile(f.getAbsolutePath());
             image.setImageBitmap(bitmap);
             image.setVisibility(View.VISIBLE);
             err.setVisibility(View.INVISIBLE);
